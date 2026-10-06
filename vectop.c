@@ -1,3 +1,9 @@
+/***************
+ * Filename: vecttop.c 
+ * Author: Musa Abdul Hamid 
+ * Description: Vector calculator that supports three operations: add, sub, and scalar mult. 
+ * Note: gcc vectcalc. vecttop.c -o vectcalc.c 
+ **************/
 #include "vect.h"
 #include <stdbool.h>
 #define array_length 10
