@@ -1,3 +1,9 @@
+/***************
+ * Filename: vectcalc.c 
+ * Author: Musa Abdul Hamid 
+ * Description: Vector calculator that supports three operations: add, sub, and scalar mult. 
+ * Note: gcc vectcalc. vecttop.c -o vectcalc.c 
+ **************/
 #include <stdio.h>
 #include <string.h> 
 #include <stdlib.h> 
@@ -30,7 +36,7 @@ int main(int argc, char* argv[]){
         //if user enters -h, come back to this later
         if(strcmp(user_input,"-h") == 0)
         {
-            printf("This is a vector calculator that is like MATLAB with 3 components(x,y,z).\n"); 
+            printf("This is a vector calculator that is like MATLAB with 3 components (x,y,z).\n"); 
             printf("Three operations are supported: add, sub, and scalar multiplication.\n"); 
         }
 
